@@ -1,6 +1,8 @@
 # fnm fish
 
-Just sets up `fnm env --use-on-cd --shell fish | source` in a config file as long as the shell is interactive and fnm is on the path.
+Sets up `fnm` in interactive Fish shells and switches Node versions when entering
+projects with `.node-version`, `.nvmrc`, or `package.json`. Projects with
+`bun.lock` or `bun.lockb` are left to Bun instead.
 
 Install with fisher:
 
